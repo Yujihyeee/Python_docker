@@ -2,28 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f914f1-7905-4dcd-ae28-4cfbf83bfb36" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/data/test.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/data/train.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/basic_boxplot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/basic_hist.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/basic_plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/changed_temperatures_on_my_birthday.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/data/202106_202106_연령별인구현황_월간.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/data/202106_202106_연령별인구현황_월간_without_comma.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/data/seoul.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/data/unit_10_gender.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/data/unit_11_subwayfee.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/data/unit_12_subwaytime.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/data/unit_14_age.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/data/unit_15_age.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/data/unit_8_gender.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/data/unit_9_gender.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/pop_structure_visual.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modu/template/pop_structure_visual_with_pandas.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/palindrome_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/palindrome_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic2/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic2/data/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic2/data/train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic2/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic2/models/dataset2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic2/models/service2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic2/views/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/titanic2/views/view2.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +70,29 @@
       <recent name="C:\Users\bitcamp\yujihye\workspace\workspace_python\modu\template" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in titanic_service_test.py">
+  <component name="RunManager" selected="Python.Temperatures">
+    <configuration name="Temperatures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="workspace_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/coding_game" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/coding_game/Temperatures.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,21 +135,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in C:/Users/bitcamp/yujihye/workspace/workspace_python_docker/tests/basic_plot_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="workspace_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/basic_plot_test.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests in one_to_ten_sum_test.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -190,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Temperatures" />
         <item itemvalue="Python tests.Unittests in titanic_service_test.py" />
         <item itemvalue="Python.view" />
         <item itemvalue="Python tests.Unittests in palindrome_test.py" />
         <item itemvalue="Python tests.Unittests in one_to_ten_sum_test.py" />
-        <item itemvalue="Python tests.Unittests in C:/Users/bitcamp/yujihye/workspace/workspace_python_docker/tests/basic_plot_test.py" />
       </list>
     </recent_temporary>
   </component>
@@ -219,7 +213,10 @@
       <workItem from="1627526574502" duration="7190000" />
       <workItem from="1627606169666" duration="546000" />
       <workItem from="1627607028816" duration="22732000" />
-      <workItem from="1627703420409" duration="1079000" />
+      <workItem from="1627703420409" duration="2515000" />
+      <workItem from="1627719505243" duration="1000" />
+      <workItem from="1627719750508" duration="95000" />
+      <workItem from="1627719962192" duration="982000" />
     </task>
     <servers />
   </component>
@@ -260,6 +257,7 @@
     <SUITE FILE_PATH="coverage/Python$one_to_ten_sum.coverage" NAME="one_to_ten_sum Coverage Results" MODIFIED="1627543911363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/workspace_python$person_count.coverage" NAME="person_count Coverage Results" MODIFIED="1626741422151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/workspace_python$view2.coverage" NAME="view2 Coverage Results" MODIFIED="1626948959845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/titanic2/views" />
+    <SUITE FILE_PATH="coverage/workspace_python_docker$Temperatures.coverage" NAME="Temperatures Coverage Results" MODIFIED="1627720219080" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coding_game" />
     <SUITE FILE_PATH="coverage/workspace_python$calculator.coverage" NAME="calculator Coverage Results" MODIFIED="1626673685843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oop" />
     <SUITE FILE_PATH="coverage/workspace_python$palindrome.coverage" NAME="palindrome Coverage Results" MODIFIED="1627296766591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
     <SUITE FILE_PATH="coverage/Python$numpy_lib.coverage" NAME="numpy_lib Coverage Results" MODIFIED="1627544469808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic" />
