@@ -1,16 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectPlainTextFileTypeManager">
-    <file url="file://$PROJECT_DIR$/modu/template/data/202106_202106_연령별인구현황_월간.csv" />
-    <file url="file://$PROJECT_DIR$/modu/template/data/202106_202106_연령별인구현황_월간_without_comma.csv" />
-    <file url="file://$PROJECT_DIR$/modu/template/data/seoul.csv" />
-    <file url="file://$PROJECT_DIR$/modu/template/data/unit_10_gender.csv" />
-    <file url="file://$PROJECT_DIR$/modu/template/data/unit_11_subwayfee.csv" />
-    <file url="file://$PROJECT_DIR$/modu/template/data/unit_12_subwaytime.csv" />
-    <file url="file://$PROJECT_DIR$/modu/template/data/unit_14_age.csv" />
-    <file url="file://$PROJECT_DIR$/modu/template/data/unit_15_age.csv" />
-    <file url="file://$PROJECT_DIR$/modu/template/data/unit_8_gender.csv" />
-    <file url="file://$PROJECT_DIR$/modu/template/data/unit_9_gender.csv" />
-  </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.9.5 Docker (yujihyeee:latest)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="Remote Python 3.8.11 Docker (&lt;none&gt;:&lt;none&gt;)" project-jdk-type="Python SDK" />
 </project>

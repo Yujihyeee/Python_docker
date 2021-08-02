@@ -1,13 +1,17 @@
 import unittest
 import os
-from titanic.models.service import Service
+from titanic.models.titanic_service import TitanicService
 
 
 class TitanicServiceTest(unittest.TestCase):
-    mock = Service()
+    mock = TitanicService()
 
     def test_new_model(self):
-        print(os.getcwd())
+        print(self.mock.new_model("test"))
+
+
+    def count_survived_dead(self):
+        return []
 
     def create_train(self):
         return None
