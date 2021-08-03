@@ -25,16 +25,16 @@ class TitanicServiceTest(unittest.TestCase):
     def embarked_nominal(self):
         return None
 
-    def fare_oridnal(self):
+    def fare_nominal(self):
+        return None
+
+    def age_ordinal(self):
         return None
 
     def title_nominal(self):
         return None
 
     def gender_nominal(self):
-        return None
-
-    def age_ordinal(self):
         return None
 
     def create_k_fold(self):

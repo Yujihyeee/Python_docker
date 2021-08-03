@@ -3,7 +3,7 @@ import unittest
 from basic.one_to_ten_sum import One_to_ten_sum
 
 
-class One_to_ten_sum(unittest.TestCase):
+class OneToTenSumTest(unittest.TestCase):
     mock = One_to_ten_sum()
 
     def test_One_to_ten_sum1(self):
