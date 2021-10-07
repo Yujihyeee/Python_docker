@@ -1,6 +1,6 @@
 import unittest
 
-from basic.one_to_ten_sum import One_to_ten_sum
+from book_algorithm_interview.loop_tutorial.models import One_to_ten_sum
 
 
 class OneToTenSumTest(unittest.TestCase):

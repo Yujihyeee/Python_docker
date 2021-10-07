@@ -1,4 +1,4 @@
-from scaping.models.dataset import Dataset
+from common.dataset import Dataset
 from scaping.models.service import Service
 
 

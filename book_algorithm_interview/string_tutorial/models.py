@@ -1,4 +1,3 @@
-
 class Palindrome(object):
 
     def str_to_list(payload: str) -> []:
@@ -18,3 +17,14 @@ class Palindrome(object):
     print(ls)
     isPal = isPalindrome(ls)
     print(isPal["RESULT"])
+
+
+class Reverse(object):
+    def str_to_list(payload: str) -> []:
+        return
+
+    def reverse_List(ls: []) -> []:
+        return []
+
+    def List_to_str(ls: []) -> str:
+        return ''

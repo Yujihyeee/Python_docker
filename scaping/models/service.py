@@ -1,6 +1,6 @@
 import pandas as pd
 
-from scaping.models.dataset import Dataset
+from common.dataset import Dataset
 
 
 class Service(object):

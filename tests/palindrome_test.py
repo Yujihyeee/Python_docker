@@ -1,7 +1,5 @@
 import unittest
 
-from basic.palindrome import Palindrome
-
 
 class PalindromeTest(unittest.TestCase):
 

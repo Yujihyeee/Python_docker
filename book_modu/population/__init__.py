@@ -1,4 +1,4 @@
-from common.menu import print_menu
+from menu.models import print_menu
 from modu.template.basic_plot import plot_show, plot_two_list_show, plot_three_list_show, plot_color, plot_linestyle, plot_scatter
 from modu.template.changed_temperatures_on_my_birthday import ChangedTemperaturesOnMyBirthday
 
