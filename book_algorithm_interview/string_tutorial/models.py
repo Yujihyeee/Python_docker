@@ -9,7 +9,6 @@ class Palindrome(object):
             return strs'''
         return [i for i in payload if i.isalnum()]
 
-
     def isPalindrome(ls: []) -> bool:
         return {"RESULT": True for i in ls if ls.pop(0) != ls.pop()}
 

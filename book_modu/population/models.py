@@ -3,7 +3,7 @@ import csv
 import pandas as pd
 import numpy as np
 from matplotlib import font_manager, rc
-rc('font', family = font_manager.FontProperties(fname='C:/Windows/Fonts/H2GTRE.ttf').get_name())
+rc('font', family=font_manager.FontProperties(fname='C:/Windows/Fonts/H2GTRE.ttf').get_name())
 
 
 class Population(object):

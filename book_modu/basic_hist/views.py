@@ -1,6 +1,9 @@
+from book_modu.basic_hist.models import BasicHist
+
 if __name__ == '__main__':
     # hist_show()
     # ls = dice_show(1000000)
     # print(ls)
     # show_hist(ls)
-    show_hist_about(highest_temperature('01'), month='01')
+    b = BasicHist()
+    b.show_hist_about(b.highest_temperature('01'), month='01')

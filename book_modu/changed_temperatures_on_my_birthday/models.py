@@ -16,7 +16,7 @@ data : [] = list()
 '''
 
 
-class ChangedTemperaturesOnMyBirthday():
+class ChangedTemperaturesOnMyBirthday(object):
     data: [] = list()
     highest_temperatures: [] = list()
 
@@ -64,5 +64,3 @@ class ChangedTemperaturesOnMyBirthday():
         plt.plot(low, 'skyblue', label='low')
         plt.legend()
         plt.show()
-
-

@@ -1,6 +1,6 @@
 import unittest
 
-from basic.olympic_medals import Olympic
+from book_nlp_for_deep_learning.pandas_tutorial.models import Olympic
 
 
 class OlympicTest(unittest.TestCase):
