@@ -2,77 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f914f1-7905-4dcd-ae28-4cfbf83bfb36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lecture/contacts/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/grade/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/person/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/scaping/melon/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/scaping/melon/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/scaping/melon/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/scaping/music_ranking/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/scaping/music_ranking/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/scaping/music_ranking/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/scaping/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/titanic/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/titanic/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/titanic/template/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/titanic/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book_algorithm_interview/chap_02_program_language/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book_algorithm_interview/chap_17_sorting/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/book_algorithm_interview/chap_17_sorting/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_nlp_for_deep_learning/pandas_tutorial/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/numpy_lib.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_nlp_for_deep_learning/numpy_tutorial/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/olympic_medals.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_nlp_for_deep_learning/pandas_tutorial/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_algorithm_interview/string_tutorial/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_algorithm_interview/string_tutorial/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_modu/basic_boxplot/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_modu/basic_boxplot/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_modu/basic_boxplot/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_modu/basic_boxplot/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_modu/basic_hist/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_modu/basic_hist/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_modu/basic_hist/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_modu/basic_hist/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_modu/basic_plot/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_modu/basic_plot/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_modu/changed_temperatures_on_my_birthday/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_modu/changed_temperatures_on_my_birthday/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_modu/changed_temperatures_on_my_birthday/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_modu/changed_temperatures_on_my_birthday/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_modu/plot/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_modu/plot/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_modu/plot/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_nlp_for_deep_learning/numpy_tutorial/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_modu/population/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_modu/population/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_modu/population/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_modu/population/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/book_modu/population/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_modu/population/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/calculator/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/calculator/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/calculator/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/common/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/common/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contacts/contacts.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/contacts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/titanic/data/test.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/train.csv" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/titanic/data/train.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/common/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade/grade.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/grade/grade_with_name.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/contacts/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/menu/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/grade/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/person.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/person_count.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oop/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/grade/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/person/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/menu/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaping/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/person/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaping/bugsmusic.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaping/data/bugs.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaping/data/melon.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaping/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/person/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaping/models/service.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaping/music_ranking.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaping/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/scaping/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaping/views/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/scaping/views/view.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/olympic_medals_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/olympic_medals_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/titanic_service_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/titanic_service_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/titanic_view_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/titanic_view_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/titanic/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/scaping/bugs_music/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/models/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/titanic/models/dataset.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/models/titanic_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/titanic/models/titanic_service.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/template/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/scaping/bugs_music/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/template/plot.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/titanic/template/plot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/scaping/bugs_music/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/titanic/views/titanic_view.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/titanic/views/titanic_view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_algorithm_interview/loop_tutorial/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_algorithm_interview/chap_02_program_language/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_algorithm_interview/loop_tutorial/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_algorithm_interview/loop_tutorial/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_algorithm_interview/chap_02_program_language/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_algorithm_interview/string_tutorial/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_algorithm_interview/chap_02_program_language/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_algorithm_interview/string_tutorial/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_algorithm_interview/chap_06_string/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/book_algorithm_interview/string_tutorial/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_algorithm_interview/chap_06_string/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/calculator/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/calculator/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/calculator/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/calculator/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/common/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/common/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/common/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_algorithm_interview/chap_06_string/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/contacts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/contacts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/contacts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/contacts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/titanic/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/titanic/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/titanic/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_algorithm_interview/chap_06_string/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/titanic/models/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/titanic/models/titanic_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/titanic/template/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/book_algorithm_interview/chap_17_sorting/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/titanic/template/plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/one_to_ten_sum_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/one_to_ten_sum_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,21 +67,22 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/titanic2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/book_algorithm_interview/chap_17_sorting" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bitcamp\yujihye\workspace\winter-microservice\workspace_python\book_algorithm_interview\chap_17_sorting" />
       <recent name="C:\Users\bitcamp\yujihye\workspace\workspace_python\titanic2" />
       <recent name="C:\Users\bitcamp\yujihye\workspace\workspace_python\scaping\models" />
       <recent name="C:\Users\bitcamp\yujihye\workspace\workspace_python\titanic2\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bitcamp\yujihye\workspace\winter-microservice\workspace_python\book_algorithm_interview\chap_17_sorting" />
       <recent name="C:\Users\bitcamp\yujihye\workspace\winter-microservice\workspace_python\lecture\scaping\music_ranking" />
       <recent name="C:\Users\bitcamp\yujihye\workspace\winter-microservice\workspace_python\lecture\scaping\melon" />
       <recent name="C:\Users\bitcamp\yujihye\workspace\winter-microservice\workspace_python\lecture\person" />
       <recent name="C:\Users\bitcamp\yujihye\workspace\winter-microservice\workspace_python\lecture\titanic" />
-      <recent name="C:\Users\bitcamp\yujihye\workspace\winter-microservice\workspace_python\lecture" />
     </key>
   </component>
   <component name="RunManager" selected="Python.views (2)">
@@ -181,6 +134,9 @@
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture/grade" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -200,6 +156,9 @@
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture/scaping/bugs_music" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -219,6 +178,9 @@
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book_modu/changed_temperatures_on_my_birthday" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -238,6 +200,9 @@
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/book_modu/population" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -257,6 +222,9 @@
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture/grade" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -338,7 +306,8 @@
       <workItem from="1633567280504" duration="287000" />
       <workItem from="1633567597477" duration="60000" />
       <workItem from="1633567703165" duration="7513000" />
-      <workItem from="1633578141863" duration="4963000" />
+      <workItem from="1633578141863" duration="5242000" />
+      <workItem from="1633586774333" duration="3975000" />
     </task>
     <servers />
   </component>
