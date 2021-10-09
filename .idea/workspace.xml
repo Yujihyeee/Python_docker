@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f914f1-7905-4dcd-ae28-4cfbf83bfb36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lecture/crime/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/crime/data/cctv_pop.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/crime/data/police_positions.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/crime/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/crime/views/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lecture/MyPandas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,6 +114,9 @@
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture/crime" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -137,6 +136,9 @@
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture/crime/data" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -287,6 +289,7 @@
       <workItem from="1633578141863" duration="5242000" />
       <workItem from="1633586774333" duration="4232000" />
       <workItem from="1633682634419" duration="4209000" />
+      <workItem from="1633767857688" duration="125000" />
     </task>
     <servers />
   </component>
