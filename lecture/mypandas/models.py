@@ -14,11 +14,10 @@ class MyPandas(object):
                   a  b  c
                1  1  3  5
                2  2  4  6
-
-               ic| df1:    a  b  c
-                        1  1  3  5
-                        2  2  4  6
-               '''
+       ic| df1:    a  b  c
+                1  1  3  5
+                2  2  4  6
+       '''
         df1 = pd.DataFrame.from_dict({1: [1, 3, 5], 2: [2, 4, 6]}, orient='index', columns=['a', 'b', 'c'])
         df1_1 = pd.DataFrame({"a": [1, 2], "b": [3, 4], "c": [5, 6]}, index=[1, 2])
         ic(df1)
@@ -31,13 +30,12 @@ class MyPandas(object):
                2   4   5   6
                3   7   8   9
                4  10  11  12
-
-               ic| df2:     A   B   C
-                        1   1   2   3
-                        2   4   5   6
-                        3   7   8   9
-                        4  10  11  12
-               '''
+       ic| df2:     A   B   C
+                1   1   2   3
+                2   4   5   6
+                3   7   8   9
+                4  10  11  12
+       '''
         df2 = pd.DataFrame({'A': range(1,11,3), 'B': range(2,12,3), 'C': range(3,13,3)}, index=range(1, 5))
         df2_2 = pd.DataFrame([[1, 2, 3],
                              [4, 5, 6],
@@ -55,8 +53,7 @@ class MyPandas(object):
         df3 = pd.DataFrame(np.random.randint(10, 100, size=(2, 3)))
         ic(df3)
         ic('-----------------------------')
-        ic('Q4 국어, 영어, 수학, 사회 4과목을 시험치른 10명의 학생들의 성적표 작성 단 점수 0 ~ 100이고 학생은 랜덤 알파벳 5자리 ID로 표기')
-
+        ic('Q4 국어, 영어, 수학, 사회 4과목을 시험치른 10명의 학생들의 성적표 작성, 단 점수 0 ~ 100이고 학생은 랜덤 알파벳 5자리 ID로 표기')
         ''' 
         ic| self.id(): 'HKKHc'
         ic| self.score(): 22
@@ -71,12 +68,14 @@ class MyPandas(object):
               QDBCw  44  32   8  29
               PZOTP  94  78  79  96
               GOJKU  62  17  75  49
-
         '''
-        for i in range(10):
-            print(''.join(random.choice(string.ascii_letters) for i in range(5)))
-        # ic('-----------------------------')
-        # ic('Q5 4번 문제를 loc 를 통해 동일하게 작성')
+        score = [list(map(lambda x: np.random.randint(0, 101), [i for i in range(1, 5)])) for i in range(1, 11)]
+        students = [''.join([random.choice(string.ascii_letters) for i in range(5)]) for i in range(10)]
+        subjects = ['국어', '영어', '수학', '사회']
+        df4 = pd.DataFrame(score, index=students, columns=subjects)
+        ic(df4)
+        ic('-----------------------------')
+        ic('Q5 4번 문제를 loc 를 통해 동일하게 작성')
         ''' 
         ic| df5:        국어  영어  수학  사회
                  ckSVA  93  44  14  94
@@ -89,7 +88,6 @@ class MyPandas(object):
                  yBVgG  58  94  93  54
                  lGmwZ  32  50  95   1
                  GQzmY  59  37  80  27
-
         '''
 
         ''' 

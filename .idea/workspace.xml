@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47f914f1-7905-4dcd-ae28-4cfbf83bfb36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture/Mypandas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/mypandas/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture/Mypandas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/mypandas/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture/Mypandas/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/mypandas/views/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture/conversion/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/conversion/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/mypandas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/mypandas/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,6 +136,9 @@
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture/conversion" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -288,7 +288,8 @@
       <workItem from="1633682634419" duration="4209000" />
       <workItem from="1633767857688" duration="125000" />
       <workItem from="1633999006795" duration="23226000" />
-      <workItem from="1634085820126" duration="16666000" />
+      <workItem from="1634085820126" duration="16970000" />
+      <workItem from="1634110819680" duration="6871000" />
     </task>
     <servers />
   </component>
