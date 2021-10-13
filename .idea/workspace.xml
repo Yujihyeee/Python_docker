@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f914f1-7905-4dcd-ae28-4cfbf83bfb36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lecture/Mypandas/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/Mypandas/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/conversion/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lecture/conversion/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture/MyPandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/Mypandas/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/conversion/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/conversion/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -291,7 +287,8 @@
       <workItem from="1633586774333" duration="4232000" />
       <workItem from="1633682634419" duration="4209000" />
       <workItem from="1633767857688" duration="125000" />
-      <workItem from="1633999006795" duration="21245000" />
+      <workItem from="1633999006795" duration="23226000" />
+      <workItem from="1634085820126" duration="4365000" />
     </task>
     <servers />
   </component>
