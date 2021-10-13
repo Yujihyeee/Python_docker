@@ -109,13 +109,16 @@ class Conversion(object):
     def three_multi_change_str(self, tpl) -> []:
         return list(map(lambda x: str(x) if x % 3 == 0 else x, tpl))
 
+    # Q12. 키는 a, b, c 이고 값은[1,2,3],[4,5,6],[7,8,9] 인 딕셔너리 출력
     def abc_dict(self):
         return {'a': [1, 2, 3], 'b': [4, 5, 6], 'c': [7, 8, 9]}
 
+    # Q13. 12번 딕셔너리에서 키값을 인덱스로 갖는 데이터프레임 출력
     def orient_index(self, dt):
         return pd.DataFrame()\
             .from_dict(dt, orient='index')
 
+    # Q14. 12번 딕셔너리에서 키값을 컬럼으로 갖는 데이터프레임 출력
     def orient_column(self, dt):
         return pd.DataFrame().from_dict(dt)
 

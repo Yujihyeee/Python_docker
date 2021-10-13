@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="47f914f1-7905-4dcd-ae28-4cfbf83bfb36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/Mypandas/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/mypandas/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/Mypandas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/mypandas/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/Mypandas/views/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/mypandas/views/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lecture/conversion/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/conversion/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +68,7 @@
       <recent name="C:\Users\bitcamp\yujihye\workspace\winter-microservice\workspace_python\book_algorithm_interview\chap_17_sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.models (2)">
+  <component name="RunManager" selected="Python.models (3)">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,6 +154,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="models (3)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="workspace_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture/mypandas" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lecture/mypandas/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -165,28 +187,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="C:\Users\bitcamp\yujihye\workspace\winter-microservice\workspace_python\lecture\crime\models.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="views (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="workspace_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture/grade" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lecture/grade/views.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,19 +229,19 @@
     <list>
       <item itemvalue="Docker.yujihye2" />
       <item itemvalue="Python.app" />
-      <item itemvalue="Python.views (1)" />
       <item itemvalue="Python.views (2)" />
       <item itemvalue="Python.models" />
       <item itemvalue="Python.models (1)" />
       <item itemvalue="Python.models (2)" />
+      <item itemvalue="Python.models (3)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.models (3)" />
         <item itemvalue="Python.models (2)" />
         <item itemvalue="Python.models (1)" />
         <item itemvalue="Python.models" />
         <item itemvalue="Python.views (2)" />
-        <item itemvalue="Python.views (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +288,7 @@
       <workItem from="1633682634419" duration="4209000" />
       <workItem from="1633767857688" duration="125000" />
       <workItem from="1633999006795" duration="23226000" />
-      <workItem from="1634085820126" duration="4365000" />
+      <workItem from="1634085820126" duration="16666000" />
     </task>
     <servers />
   </component>

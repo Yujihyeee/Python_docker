@@ -1,62 +1,83 @@
+import random
+import string
+
+import numpy as np
+from icecream import ic
+import pandas as pd
+
+
 class MyPandas(object):
     def __init__(self):
-        print('### PANDAS QUIZ ###')
+        ic('### PANDAS QUIZ ###')
+        ic('Q1. 다음 결과 출력')
         '''
-        Q1. 다음 결과 출력
-           a  b  c
-        1  1  3  5
-        2  2  4  6
+                  a  b  c
+               1  1  3  5
+               2  2  4  6
 
-        ic| df1:    a  b  c
-                 1  1  3  5
-                 2  2  4  6
-        '''
-
+               ic| df1:    a  b  c
+                        1  1  3  5
+                        2  2  4  6
+               '''
+        df1 = pd.DataFrame.from_dict({1: [1, 3, 5], 2: [2, 4, 6]}, orient='index', columns=['a', 'b', 'c'])
+        df1_1 = pd.DataFrame({"a": [1, 2], "b": [3, 4], "c": [5, 6]}, index=[1, 2])
+        ic(df1)
+        ic(df1_1)
+        ic('-----------------------------')
+        ic('Q2. 다음 결과 출력')
         '''         
-        Q2. 다음 결과 출력
-           A   B   C
-        1   1   2   3
-        2   4   5   6
-        3   7   8   9
-        4  10  11  12
+                  A   B   C
+               1   1   2   3
+               2   4   5   6
+               3   7   8   9
+               4  10  11  12
 
-        ic| df2:     A   B   C
-                 1   1   2   3
-                 2   4   5   6
-                 3   7   8   9
-                 4  10  11  12
-        '''
+               ic| df2:     A   B   C
+                        1   1   2   3
+                        2   4   5   6
+                        3   7   8   9
+                        4  10  11  12
+               '''
+        df2 = pd.DataFrame({'A': range(1,11,3), 'B': range(2,12,3), 'C': range(3,13,3)}, index=range(1, 5))
+        df2_2 = pd.DataFrame([[1, 2, 3],
+                             [4, 5, 6],
+                             [7, 8, 9],
+                             [10, 11, 12]], index=range(1, 5), columns=['A', 'B', 'C'])
+        ic(df2)
+        ic(df2_2)
+        ic('-----------------------------')
+        ic('Q3 두자리 정수를 랜덤으로 2행 3열 데이터프레임을 생성')
+        ''' 
+               ic| df3:     0   1   2
+                        0  95  25  74
+                        1  44  24  97
+               '''
+        df3 = pd.DataFrame(np.random.randint(10, 100, size=(2, 3)))
+        ic(df3)
+        ic('-----------------------------')
+        ic('Q4 국어, 영어, 수학, 사회 4과목을 시험치른 10명의 학생들의 성적표 작성 단 점수 0 ~ 100이고 학생은 랜덤 알파벳 5자리 ID로 표기')
 
         ''' 
-        Q3 두자리 정수를 랜덤으로 2행 3열 데이터프레임을 생성
-        ic| df3:     0   1   2
-                 0  95  25  74
-                 1  44  24  97
-
-        '''
-
-        ''' 
-
-        Q4 국어, 영어, 수학, 사회 4과목을 시험치른 10명의 학생들의 성적표 작성. 단 점수 0 ~ 100이고 학생은 랜덤 알파벳 5자리 ID 로 표기
-
         ic| self.id(): 'HKKHc'
         ic| self.score(): 22
         ic| df4:        국어  영어  수학  사회
-               lDZid  57  90  55  24
-               Rnvtg  12  66  43  11
-               ljfJt  80  33  89  10
-               ZJaje  31  28  37  34
-               OnhcI  15  28  89  19
-               claDN  69  41  66  74
-               LYawb  65  16  13  20
-               QDBCw  44  32   8  29
-               PZOTP  94  78  79  96
-               GOJKU  62  17  75  49
+              lDZid  57  90  55  24
+              Rnvtg  12  66  43  11
+              ljfJt  80  33  89  10
+              ZJaje  31  28  37  34
+              OnhcI  15  28  89  19
+              claDN  69  41  66  74
+              LYawb  65  16  13  20
+              QDBCw  44  32   8  29
+              PZOTP  94  78  79  96
+              GOJKU  62  17  75  49
 
         '''
-
+        for i in range(10):
+            print(''.join(random.choice(string.ascii_letters) for i in range(5)))
+        # ic('-----------------------------')
+        # ic('Q5 4번 문제를 loc 를 통해 동일하게 작성')
         ''' 
-        Q5 4번 문제를 loc 를 통해 동일하게 작성
         ic| df5:        국어  영어  수학  사회
                  ckSVA  93  44  14  94
                  CAOot  25  54  29  10
@@ -448,19 +469,27 @@ class MyPandas(object):
         '''
 
         '''  
-        Q11. 체의 각 행에 대해 세번째 NaN 값이 들어 있는 열을 찾으시오. 일련의 열 레이블을 반환해야 합니다.
-          ic| type(df11.isnull()): <class 'pandas.core.frame.DataFrame'>
-          ic| df11: 0    e
-                   1    c
-                   2    d
-                   3    h
-                   4    d
-                  dtype: object
-        '''
+         Q11. 체의 각 행에 대해 세번째 NaN 값이 들어 있는 열을 찾으시오. 일련의 열 레이블을 반환해야 합니다.
+         nan = np.nan
+         data = [[0.04, nan, nan, 0.25, nan, 0.43, 0.71, 0.51, nan, nan],
+                 [nan, nan, nan, 0.04, 0.76, nan, nan, 0.67, 0.76, 0.16],
+                 [nan, nan, 0.5, nan, 0.31, 0.4, nan, nan, 0.24, 0.01],
+                 [0.49, nan, nan, 0.62, 0.73, 0.26, 0.85, nan, nan, nan],
+                 [nan, nan, 0.41, nan, 0.05, nan, 0.61, nan, 0.48, 0.68]]
+         columns = list('abcdefghij')
+           ic| type(df11.isnull()): <class 'pandas.core.frame.DataFrame'>
+           ic| df11: 0    e
+                    1    c
+                    2    d
+                    3    h
+                    4    d
+                   dtype: object
+         '''
 
         '''  
         Q12. grps 에서 a, b, c 별로 가장 큰 값
-
+            df12 = pd.DataFrame({'grps': list('aaabbcaabcccbbc'),
+                           'vals': [12, 345, 3, 1, 45, 14, 4, 52, 54, 23, 235, 21, 57, 3, 87]})
           ic| type(df12.groupby('grps')): <class 'pandas.core.groupby.generic.DataFrameGroupBy'>
           ic| type(df12.groupby('grps')['vals']): <class 'pandas.core.groupby.generic.SeriesGroupBy'>
           ic| df12: grps
@@ -471,13 +500,14 @@ class MyPandas(object):
         '''
 
         '''  
-        Q13. DF 객체를 list 로 변환
+        Q13. 다음 DF13 객체를 list 로 변환
+        df13 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
         ic| type(ls): <class 'list'>
         ic| df13.values.tolist(): [[1, 4], [2, 5], [3, 6]]
         '''
 
         '''  
-        Q14. DF 객체를 dictionary 로 변환
+        Q14. 아래 결과로 출력되는 DF 객체 전환 코드작성
         ic| df14.to_dict(): {'A': {0: 1, 1: 2, 2: 3}, 'B': {0: 4, 1: 5, 2: 6}}
         '''
 
