@@ -7,6 +7,20 @@ import pandas as pd
 
 
 class MyPandas(object):
+
+    def q5_copy_random_score(self, df: object) -> object:
+        idx = list(df.index)
+        result = pd.DataFrame(columns=df.columns, index=list(df.index))
+        for i in range(len(idx)):
+            result.loc[idx[i]] = df.loc[idx[i]]
+        return result
+
+    def id(self):
+        return "".join(random.choice(string.ascii_letters) for i in range(5))
+
+    def score(self):
+        return np.random.randint(0, 100)
+
     def __init__(self):
         ic('### PANDAS QUIZ ###')
         ic('Q1. 다음 결과 출력')
@@ -69,55 +83,60 @@ class MyPandas(object):
               PZOTP  94  78  79  96
               GOJKU  62  17  75  49
         '''
-        score = [list(map(lambda x: np.random.randint(0, 101), [i for i in range(1, 5)])) for i in range(1, 11)]
+        score = [list(map(lambda x: np.random.randint(100), [i for i in range(4)])) for i in range(10)]
         students = [''.join([random.choice(string.ascii_letters) for i in range(5)]) for i in range(10)]
         subjects = ['국어', '영어', '수학', '사회']
         df4 = pd.DataFrame(score, index=students, columns=subjects)
         ic(df4)
         ic('-----------------------------')
         ic('Q5 4번 문제를 loc 를 통해 동일하게 작성')
-        ''' 
-        ic| df5:        국어  영어  수학  사회
-                 ckSVA  93  44  14  94
-                 CAOot  25  54  29  10
-                 fZTCh  82  65  31  31
-                 mqZJJ  51  56  56   3
-                 BKlLt  34  32  67  48
-                 KKYUN  85  24  16   8
-                 WAjFK  28  80  52  43
-                 yBVgG  58  94  93  54
-                 lGmwZ  32  50  95   1
-                 GQzmY  59  37  80  27
         '''
-
-        ''' 
-        Q5-1 국어 점수만 출력
-
-                             hVoGW    93
-                             QkpKK    25
-                             oDmky    82
-                             qdTeX    51
-                             XGzWk    34
-                             PAwgj    85
-                             vnTmB    28
-                             wuxIm    58
-                             AOQFG    32
-                             jHChe    59
-                             Name: 국어, dtype: int64
-
+            df4:        국어  영어   수학  사회
+                 LbCfT  82  80   89  99
+                 dxxAq  18  78   83  55
+                 VYkjP  50  30   38  66
+                 dNQpz  24  48   29  56
+                 gjcYb  84  34   41  67
+                 CMrZr  88   4   60  27
+                 xVrIw  68  45   93  79
+                 xGskn  20  65    6  43
+                 UJPFU  25  50  100  74
+                 tdzta   8  50   92  82
         '''
-
+        subjects = ['국어', '영어', '수학', '사회']
+        scores = [np.random.randint(100) for i in range(5)]
+        student = ''.join([random.choice(string.ascii_letters) for i in range(5)])
+        dt = dict(zip(subjects, scores))
+        df5 = pd.DataFrame(dt, index=[student])
+        for i in range(9):
+            df5.loc[''.join([random.choice(string.ascii_letters) for i in range(5)])] = \
+                dict(zip(subjects, list(map(lambda x: np.random.randint(100), range(5)))))
+        ic(df5)
+        ic('-----------------------------')
+        ic('Q5-1 국어 점수만 출력')
         ''' 
-        Q5-2 TdQOI 점수만 출력
-
+             hVoGW    93
+             QkpKK    25
+             oDmky    82
+             qdTeX    51
+             XGzWk    34
+             PAwgj    85
+             vnTmB    28
+             wuxIm    58
+             AOQFG    32
+             jHChe    59
+             Name: 국어, dtype: int64
+        '''
+        ic(df5.loc[:, '국어'])
+        ic('-----------------------------')
+        ic('Q5-2 1등의 점수만 출력')
+        '''
         ic| TdQOI	15	42	59	67
-
-
         '''
-
-        ''' 
-        Q5-3 기존 학생들에게 과학과목과 점수를 랜덤으로 추가
-
+        ic(df5.iloc[[0], :])
+        ic('-----------------------------')
+        ic('Q5-3 기존 학생들에게 과학과목과 점수를 랜덤으로 추가')
+        '''
         ic| df5:     국어  영어  수학  사회  과학
                  hVoGW  93  44  14  94  86
                  QkpKK  25  54  29  10   8
@@ -131,10 +150,11 @@ class MyPandas(object):
                  jHChe  59  37  80  27  39
 
         '''
-
-        ''' 
-
-        Q5-4 각 학생들의 점수의 총점을 표현하는 컬럼을 추가
+        df5.loc[:, '과학'] = pd.Series([np.random.randint(100) for i in range(10)], index=df5.index)
+        ic(df5)
+        ic('-----------------------------')
+        ic('Q5-4 각 학생들의 점수의 총점을 표현하는 컬럼을 추가')
+        '''
         ic| df5:    국어  영어  수학  사회  과학   총점
                  hVoGW  93  44  14  94  86  331
                  QkpKK  25  54  29  10   8  126
@@ -146,17 +166,19 @@ class MyPandas(object):
                  wuxIm  58  94  93  54  83  382
                  AOQFG  32  50  95   1  52  230
                  jHChe  59  37  80  27  39  242
-
         '''
-
+        df5['총점'] = df5.sum(axis=1)
+        ic(df5)
+        ic('-----------------------------')
+        ic('Q5-5 각 학생들의 점수의 총합을 리스트로 출력')
         ''' 
-        Q5-5 각 학생들의 점수의 총합을 리스트로 출력
             ic| ls: [547, 536, 533, 319, 376, 2311]
-
         '''
-
+        ls5 = df5.sum().tolist()
+        ic(ls5)
+        ic('-----------------------------')
+        ic('Q5-6 각 학생들의 점수의 총합과 마지막 행은 과목총점 추가해서 출력')
         ''' 
-        Q5-6 각 학생들의 점수의 총합과 마지막 행은 과목총점 추가해서 출력
         ic| df5:  국어   영어   수학   사회   과학    총점
                  hVoGW   93   44   14   94   86   331
                  QkpKK   25   54   29   10    8   126
@@ -170,9 +192,11 @@ class MyPandas(object):
                  jHChe   59   37   80   27   39   242
                  과목총점   547  536  533  319  376  2311
         '''
-
+        df5.loc['과목총점'] = ls5
+        ic(df5)
+        ic('-----------------------------')
+        ic('Q5-7 방금 추가한 과목총점 삭제')
         ''' 
-        Q5-7 방금 추가한 과목총점 삭제
         ic| df5:  국어  영어  수학  사회  과학   총점
                  hVoGW  93  44  14  94  86  331
                  QkpKK  25  54  29  10   8  126
@@ -185,9 +209,11 @@ class MyPandas(object):
                  AOQFG  32  50  95   1  52  230
                  jHChe  59  37  80  27  39  242
         '''
-
+        df5.drop('과목총점', inplace=True)
+        ic(df5)
+        ic('-----------------------------')
+        ic('Q5-8 총점 열 기준 내림차순 정렬')
         '''                         
-        Q5-8 총점 열 기준 내림차순 정렬
                  wuxIm  58  94  93  54  83  382
                  hVoGW  93  44  14  94  86  331
                  vnTmB  28  80  52  43  48  251
@@ -199,10 +225,11 @@ class MyPandas(object):
                  PAwgj  85  24  16   8  22  155
                  QkpKK  25  54  29  10   8  126
         '''
-
+        df5.sort_values(['총점'], ascending=False, inplace=True)
+        ic(df5)
+        ic('-----------------------------')
+        ic('Q6 주어진 값으로 DataFrame 객체 생성 6-1 객체내부 정보를 출력')
         '''  
-        Q6 주어진 값으로 DataFrame 객체 생성
-        6-1 객체내부 정보를 출력
         ic| df6:   animal  age  visits priority
                  a    cat  2.5       1      yes
                  b    cat  3.0       3      yes
@@ -224,18 +251,25 @@ class MyPandas(object):
                             75%    4.625000   2.750000
                             max    7.000000   3.000000
         '''
-
+        data = {'animal' : ['cat', 'cat', 'snake', 'dog', 'dog', 'cat', 'snake', 'cat', 'dog', 'dog'],
+                'age' : [2.5, 3.0, 0.5, np.nan, 5.0, 2.0, 4.5, np.nan, 7.0, 3.0],
+                'visits' : [1,3,2,3,2,3,1,1,2,1],
+                'priority': ['y','y','n','y','n','n','n','y','n','n']}
+        labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+        df6 = pd.DataFrame(data, index=labels)
+        ic(df6)
+        ic('-----------------------------')
+        ic('6-2 객체 상위 3열까지 출력')
         '''  
-        6-2 객체 상위 3열까지 출력
-
         ic| df6.iloc[:3]:   animal  age  visits priority
                           a    cat  2.5       1      yes
                           b    cat  3.0       3      yes
                           c  snake  0.5       2       no
         '''
-
+        ic(df6[:3])
+        ic('-----------------------------')
+        ic('6-3 animal과 age 컬럼만 출력')
         '''  
-        6-3 animal과 age 컬럼만 출력
         ic| df6.loc[:, ['animal', 'age']]:   animal  age
                                            a    cat  2.5
                                            b    cat  3.0
@@ -249,49 +283,54 @@ class MyPandas(object):
                                            j    dog  3.0
 
         '''
-
+        ic(df6.loc[:, ['animal', 'age']])
+        ic('-----------------------------')
+        ic('6-4 객체의 3, 4, 8번 행에 해당하는 animal과 age 값만 출력')
         '''                                                            
-        6-4 객체의 3, 4, 8번 행에 해당하는 animal과 age 값만 출력
         ic| df6.loc[df6.index[[3,4,8]], ['animal','age']]:   animal  age
                                                            d    dog  NaN
                                                            e    dog  5.0
                                                            i    dog  7.0
         '''
-
+        ic(df6.loc[df6.index[[3,4,8]], ['animal', 'age']])
+        ic('-----------------------------')
+        ic('6-5 visit 컬럼에서 2 초과하는 값 출력')
         ''' 
-        6-5 visit 컬럼에서 3 초과하는 값 출력
-
         ic| df6[df6['visits']>2]:   animal  age  visits priority
                                   b    cat  3.0       3      yes
                                   d    dog  NaN       3      yes
                                   f    cat  2.0       3       no
         '''
-
+        ic(df6[df6['visits'] > 2])
+        ic('-----------------------------')
+        ic('6-6 age 에서 NaN 값 출력')
         ''' 
-        6-6 age 에서 NaN 값 출력
         ic| df6[df6['age'].isnull()]:   animal  age  visits priority
                                       d    dog  NaN       3      yes
                                       h    cat  NaN       1      yes
         '''
-
+        ic(df6[df6['age'].isnull()])
+        ic('-----------------------------')
+        ic('6-7 age가 3살 미만 고양이값 출력')
         '''         
-        6-7 age가 3살 미만 고양이값 출력
         ic| df6[(df6['age'] <3) & (df6['animal'] =='cat')]:   animal  age  visits priority
                                                             a    cat  2.5       1      yes
                                                             f    cat  2.0       3       no
         '''
-
+        ic(df6[(df6['age'] < 3) & (df6['animal'] == 'cat')])
+        ic('-----------------------------')
+        ic('6-8 age가 2살이상 4살 미만인 값 출력')
         '''        
-        6-8 age가 2살이상 4살 미만인 값 출력
         ic| df6[df6['age'].between(2,4)]:   animal  age  visits priority
                                           a    cat  2.5       1      yes
                                           b    cat  3.0       3      yes
                                           f    cat  2.0       3       no
                                           j    dog  3.0       1       no
         '''
-
+        ic(df6[df6['age'].between(2,4)])
+        ic('-----------------------------')
+        ic('6-9 f 행의 나이를 1.5살로 변경')
         '''                    
-        6-9 f 행의 나이를 1.5살로 변경
                  a    cat  2.5       1      yes
                  b    cat  3.0       3      yes
                  c  snake  0.5       2       no
@@ -303,23 +342,27 @@ class MyPandas(object):
                  i    dog  7.0       2       no
                  j    dog  3.0       1       no
         '''
-
+        df6.loc['f', 'age'] = 1.5
+        ic(df6)
+        ic('-----------------------------')
+        ic('6-10 객체에서 visit 의 합 출력')
         ''' 
-        6-10 객체에서 visit 의 합 출력
         ic| df6['visits'].sum(): 19
         '''
-
+        ic(df6['visits'].sum())
+        ic('-----------------------------')
+        ic('6-11 동물별로 나이의 평균 출력')
         ''' 
-        6-11 동물별로 나이의 평균 출력
         ic| df6.groupby('animal')['age'].mean(): animal
                                                  cat      2.333333
                                                  dog      5.000000
                                                  snake    2.500000
                                                  Name: age, dtype: float64
         '''
-
+        ic(df6.groupby('animal')['age'].mean())
+        ic('-----------------------------')
+        ic('6-12 k행을 추가하여 dog , 5.5세, 방문회수 2회, 우선권없음(no) 열을 추가')
         '''        
-        6-12 k행을 추가하여 dog , 5.5세, 방문회수 2회, 우선권없음(no) 열을 추가
                  a    cat  2.5       1      yes
                  b    cat  3.0       3      yes
                  c  snake  0.5       2       no
@@ -332,9 +375,11 @@ class MyPandas(object):
                  j    dog  3.0       1       no
                  k    dog  5.5       2       no
         '''
-
+        df6.loc['k'] = ['dog', 5.5, 2, 'n']
+        ic(df6)
+        ic('-----------------------------')
+        ic('6-13 방금 추가한 열 삭제')
         '''         
-        6-13 방금 추가한 열 삭제
         ic| df6:   animal  age  visits priority
                  a    cat  2.5       1      yes
                  b    cat  3.0       3      yes
@@ -347,18 +392,20 @@ class MyPandas(object):
                  i    dog  7.0       2       no
                  j    dog  3.0       1       no
         '''
-
+        df6.drop('k', inplace=True)
+        ic(df6)
+        ic('-----------------------------')
+        ic('6-14 객체에 있는 동물의 종류의 수 출력')
         '''  
-        6-14 객체에 있는 동물의 종류의 수 출력
         ic| df6['animal'].value_counts(): dog      4
                                           cat      4
                                           snake    2
                                           Name: animal, dtype: int64
         '''
-
+        ic(df6['animal'].value_counts())
+        ic('-----------------------------')
+        ic('6-15 age 는 내림차순, visits 는 오름차순으로 정렬')
         '''                
-        6-15 age 는 내림차순, visits 는 오름차순으로 정렬
-
         ic| df6.sort_values(by=['age','visits'], ascending=[False, True]):   animal  age  visits priority
                                                                            i    dog  7.0       2       no
                                                                            e    dog  5.0       2       no
