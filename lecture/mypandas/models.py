@@ -418,10 +418,10 @@ class MyPandas(object):
                                                                            h    cat  NaN       1      yes
                                                                            d    dog  NaN       3      yes
         '''
-
+        ic(df6.sort_values(by=['age', 'visits'], ascending=[False, True]))
+        ic('-----------------------------')
+        ic('6-16 priority 의 yes를 True, no 를 False  로 맵핑 후 출력')
         '''  
-        6-16 priority 의 yes를 True, no 를 False  로 맵핑 후 출력
-
         ic| df6:   animal  age  visits  priority
                  a    cat  2.5       1      True
                  b    cat  3.0       3      True
@@ -512,9 +512,9 @@ class MyPandas(object):
                   7  0  0  1
                   8  0  1  0
         '''
-
+        ic('-----------------------------')
+        ic('Q11. 체의 각 행에 대해 세번째 NaN 값이 들어 있는 열을 찾으시오. 일련의 열 레이블을 반환해야 합니다.')
         '''  
-         Q11. 체의 각 행에 대해 세번째 NaN 값이 들어 있는 열을 찾으시오. 일련의 열 레이블을 반환해야 합니다.
          nan = np.nan
          data = [[0.04, nan, nan, 0.25, nan, 0.43, 0.71, 0.51, nan, nan],
                  [nan, nan, nan, 0.04, 0.76, nan, nan, 0.67, 0.76, 0.16],
@@ -529,7 +529,7 @@ class MyPandas(object):
                     3    h
                     4    d
                    dtype: object
-         '''
+        '''
 
         '''  
         Q12. grps 에서 a, b, c 별로 가장 큰 값
