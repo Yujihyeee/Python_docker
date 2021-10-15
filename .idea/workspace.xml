@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47f914f1-7905-4dcd-ae28-4cfbf83bfb36" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lecture/crime/data/folium.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture/crime/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/crime/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +65,36 @@
       <recent name="C:\Users\bitcamp\yujihye\workspace\winter-microservice\workspace_python\book_algorithm_interview\chap_17_sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__init__">
+  <component name="RunManager" selected="Python.__init__ (1)">
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="workspace_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lecture/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture/crime" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -196,28 +220,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="models" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="workspace_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture/crime/data" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\bitcamp\yujihye\workspace\winter-microservice\workspace_python\lecture\crime\models.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="yujihye2" type="docker-deploy" factoryName="docker-image" server-name="yujihye">
       <deployment type="docker-image">
         <settings>
@@ -230,19 +232,19 @@
     <list>
       <item itemvalue="Docker.yujihye2" />
       <item itemvalue="Python.app" />
-      <item itemvalue="Python.models" />
       <item itemvalue="Python.models (1)" />
       <item itemvalue="Python.models (2)" />
       <item itemvalue="Python.models (3)" />
       <item itemvalue="Python.__init__" />
+      <item itemvalue="Python.__init__ (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python.__init__" />
         <item itemvalue="Python.models (3)" />
         <item itemvalue="Python.models (2)" />
         <item itemvalue="Python.models (1)" />
-        <item itemvalue="Python.models" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +295,9 @@
       <workItem from="1634110819680" duration="6871000" />
       <workItem from="1634171925998" duration="14699000" />
       <workItem from="1634209464457" duration="833000" />
-      <workItem from="1634264152288" duration="2081000" />
+      <workItem from="1634264152288" duration="2709000" />
+      <workItem from="1634286492483" duration="676000" />
+      <workItem from="1634294121597" duration="65000" />
     </task>
     <servers />
   </component>
