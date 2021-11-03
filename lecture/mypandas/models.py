@@ -267,6 +267,7 @@ class MyPandas(object):
                           c  snake  0.5       2       no
         '''
         ic(df6[:3])
+        print(df6[:3])
         ic('-----------------------------')
         ic('6-3 animal과 age 컬럼만 출력')
         '''  
@@ -434,9 +435,9 @@ class MyPandas(object):
                  i    dog  7.0       2     False
                  j    dog  3.0       1     False
         '''
-
+        ic('-----------------------------')
+        ic('6-17 snake 를 python 으로 값을 변경')
         '''                
-        6-17 snake 를 python 으로 값을 변경
         ic| df6:    animal  age  visits  priority
                  a     cat  2.5       1      True
                  b     cat  3.0       3      True
@@ -449,21 +450,18 @@ class MyPandas(object):
                  i     dog  7.0       2     False
                  j     dog  3.0       1     False
         '''
-
+        ic('-----------------------------')
+        ic('6-18 각각의 동물 유형과 방문 횟수에 대해, 평균나이 출력,즉,각 행은 animal 이고, 각 열은 visits 이며, 값은 평균연령 (힌트, 피벗 테이블을 활용해야 함)')
         '''                  
-        6-18 각각의 동물 유형과 방문 횟수에 대해, 평균나이 출력,
-        즉,각 행은 animal 이고, 각 열은 visits 이며, 값은 평균연령
-        (힌트, 피벗 테이블을 활용해야 함)
         ic| df6: visits    1    2    3
                  animal
                  cat     2.5  NaN  2.5
                  dog     3.0  6.0  NaN
                  python  4.5  0.5  NaN
         '''
-
+        ic('-----------------------------')
+        ic('Q7. 키값 A와 중복된 값이 제거된 1,2,3,4,5,6,7 이 출력')
         '''    
-        Q7. 키값 A와 중복된 값이 제거된 1,2,3,4,5,6,7 이 출력
-
         ic| type(df7['A']): <class 'pandas.core.series.Series'>
           ic| df7:    A
                    0  1
@@ -474,9 +472,9 @@ class MyPandas(object):
                    8  6
                    9  7
         '''
-
+        ic('-----------------------------')
+        ic('Q8. 행의 각 요소에서 행의 평균을 뺀 값을 출력하되 부분집합으로 가로출력')
         '''    
-        Q8. 행의 각 요소에서 행의 평균을 뺀 값을 출력하되 부분집합으로 가로출력
         ic| df8:           0         1         2
                  0 -0.095803 -0.151800  0.247603
                  1 -0.254548  0.229442  0.025106
@@ -484,14 +482,14 @@ class MyPandas(object):
                  3  0.340665  0.224261 -0.564927
                  4  0.059283  0.010734 -0.070017
         '''
-
+        ic('-----------------------------')
+        ic('Q9. 가장 작은 합계를 가진 숫자열의 열을 출력(최대값은 max)')
         '''                
-        Q9. 가장 작은 합계를 가진 숫자열의 열을 출력(최대값은 max)
         ic| df9.sum().idxmax(): 'b'
         '''
-
+        ic('-----------------------------')
+        ic('Q10. 중복된 값이 없는 유니크한 열의 카운트 출력(중복되지 않은 행은 몇 개..)')
         '''    
-        Q10. 중복된 값이 없는 유니크한 열의 카운트 출력(중복되지 않은 행은 몇 개..)
         ic| df10:    0  1  2
 
                   0  1  0  0
@@ -530,9 +528,9 @@ class MyPandas(object):
                     4    d
                    dtype: object
         '''
-
+        ic('-----------------------------')
+        ic('Q12. grps 에서 a, b, c 별로 가장 큰 값')
         '''  
-        Q12. grps 에서 a, b, c 별로 가장 큰 값
             df12 = pd.DataFrame({'grps': list('aaabbcaabcccbbc'),
                            'vals': [12, 345, 3, 1, 45, 14, 4, 52, 54, 23, 235, 21, 57, 3, 87]})
           ic| type(df12.groupby('grps')): <class 'pandas.core.groupby.generic.DataFrameGroupBy'>
@@ -543,16 +541,16 @@ class MyPandas(object):
                   c    235
                   Name: vals, dtype: int64
         '''
-
+        ic('-----------------------------')
+        ic('Q13. 다음 DF13 객체를 list 로 변환')
         '''  
-        Q13. 다음 DF13 객체를 list 로 변환
         df13 = pd.DataFrame({'A': [1, 2, 3], 'B': [4, 5, 6]})
         ic| type(ls): <class 'list'>
         ic| df13.values.tolist(): [[1, 4], [2, 5], [3, 6]]
         '''
-
+        ic('-----------------------------')
+        ic('Q14. 아래 결과로 출력되는 DF 객체 전환 코드작성')
         '''  
-        Q14. 아래 결과로 출력되는 DF 객체 전환 코드작성
         ic| df14.to_dict(): {'A': {0: 1, 1: 2, 2: 3}, 'B': {0: 4, 1: 5, 2: 6}}
         '''
 

@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="47f914f1-7905-4dcd-ae28-4cfbf83bfb36" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lecture/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lecture/mypandas/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lecture/mypandas/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +66,7 @@
       <recent name="C:\Users\bitcamp\yujihye\workspace\winter-microservice\workspace_python\book_algorithm_interview\chap_17_sorting" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__init__ (1)">
+  <component name="RunManager" selected="Python.models (3)">
     <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -202,9 +203,6 @@
       <module name="workspace_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lecture/mypandas" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -240,9 +238,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.models (3)" />
         <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python.__init__" />
-        <item itemvalue="Python.models (3)" />
         <item itemvalue="Python.models (2)" />
         <item itemvalue="Python.models (1)" />
       </list>
@@ -302,6 +300,9 @@
       <workItem from="1634518721236" duration="11000" />
       <workItem from="1634519937122" duration="105000" />
       <workItem from="1634538191001" duration="80000" />
+      <workItem from="1634897275790" duration="73000" />
+      <workItem from="1634899285772" duration="136000" />
+      <workItem from="1635920564792" duration="1371000" />
     </task>
     <servers />
   </component>
