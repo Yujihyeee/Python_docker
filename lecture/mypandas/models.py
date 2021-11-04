@@ -89,6 +89,15 @@ class MyPandas(object):
         df4 = pd.DataFrame(score, index=students, columns=subjects)
         ic(df4)
         ic('-----------------------------')
+        ic('Q4-1 위 문제에서 총점으로 1등을 한 학생을 출력하는 코드를 작성하시오')
+        score = [list(map(lambda x: np.random.randint(100), [i for i in range(4)])) for i in range(10)]
+        students = [''.join([random.choice(string.ascii_letters) for i in range(5)]) for i in range(10)]
+        subjects = ['국어', '영어', '수학', '사회']
+        df4_1 = pd.DataFrame(score, index=students, columns=subjects)
+        ic(df4_1)
+        df4_1['총점'] = df4_1['국어']+df4_1['영어']+df4_1['수학']+df4_1['사회']
+        print(max(df4_1['총점'].index))
+        ic('-----------------------------')
         ic('Q5 4번 문제를 loc 를 통해 동일하게 작성')
         '''
             df4:        국어  영어   수학  사회
